@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73f2e41d6c111e64485dc788115007ea, type: 3}
+  m_Name: FirestQuest
+  m_EditorClassIdentifier: 
+  LogSlotName: "\u4E3B\u7EBF\u4EFB\u52A1"
+  description: "\u627E\u5230\u8089,\u51FB\u8D25\u654C\u4EBA"
+  questLevel: 1
+  objectives:
+  - description: "\u627E\u5230\u8089"
+    target: {fileID: 11400000, guid: 1f7bd2e6440acfc48a2d8de6d3fadafd, type: 2}
+    requiredAmount: 1
+  - description: "\u51FB\u8D25\u4E00\u4E2A\u602A\u7269"
+    target: {fileID: 11400000, guid: bdf8b58313c5259488e94ff249962049, type: 2}
+    requiredAmount: 1
+  - description: "\u83B7\u53D6\u4E00\u4E2A\u8611\u83C7"
+    target: {fileID: 11400000, guid: ab243b60126378242ada522d45d02d53, type: 2}
+    requiredAmount: 1
+  rewards:
+  - item: {fileID: 11400000, guid: 1f7bd2e6440acfc48a2d8de6d3fadafd, type: 2}
+    quantity: 3
+  - item: {fileID: 11400000, guid: 6427f744b1ce581438a93cfd2d6b2219, type: 2}
+    quantity: 2

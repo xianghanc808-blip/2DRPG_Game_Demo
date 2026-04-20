@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5e0d87c770e06f4c86b90c4ade342d8, type: 3}
+  m_Name: Dialogue_NeedFood
+  m_EditorClassIdentifier: 
+  lines:
+  - actorSO: {fileID: 11400000, guid: 81f9483f3265f6d43bb8af54779c3592, type: 2}
+    text: "\u54C8\u54C8,\u8FD9\u6837\u7684\u8BDD,\u4F60\u5C31\u53BB\u627EPaenB\u54EA\u91CC\u770B\u770B,\u6751\u5E84\u91CC\u8FD8\u6709\u6CA1\u6709\u8089."
+  options:
+  - optionText: "\u597D\u7684"
+    nextDialogue: {fileID: 0}
+    quest: {fileID: 0}
+  requireNPCs: []
+  removeAfterPlay: 0
+  removeTheseOnPlay: []

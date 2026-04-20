@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5e0d87c770e06f4c86b90c4ade342d8, type: 3}
+  m_Name: Dialogue_GiveFood
+  m_EditorClassIdentifier: 
+  lines:
+  - actorSO: {fileID: 11400000, guid: cf697c10aa75ea44988644bd4c3d5a6e, type: 2}
+    text: "\u6211\u8FD9\u91CC\u6709\u4E9B\u8089\u53EF\u4EE5\u7ED9\u4F60\u5145\u9965."
+  options:
+  - optionText: "\u592A\u597D\u4E86"
+    nextDialogue: {fileID: 0}
+    quest: {fileID: 0}
+  requireNPCs:
+  - {fileID: 11400000, guid: 81f9483f3265f6d43bb8af54779c3592, type: 2}
+  removeAfterPlay: 1
+  removeTheseOnPlay: []

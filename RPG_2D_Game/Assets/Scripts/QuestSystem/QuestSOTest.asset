@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab28343f39480745aa0453d35fdf791, type: 3}
+  m_Name: QuestSOTest
+  m_EditorClassIdentifier: 
+  questName: "\u83B7\u53D6\u751F\u8089"
+  questDescription: "\u62FF\u5230\u751F\u8089\u4E09\u4E2A"
+  questLevel: 0
+  objectives:
+  - description: meat
+    target: {fileID: 11400000, guid: 25f36fae1481b79448a04f123af08c76, type: 2}
+    requiredAmount: 3
+  rewards:
+  - itemSO: {fileID: 11400000, guid: bcfa9286bc882e74a942337df95de152, type: 2}
+    quantity: 2
+  - itemSO: {fileID: 11400000, guid: de3ad2af0901d9343a3ac8c07c75533d, type: 2}
+    quantity: 3
+  - itemSO: {fileID: 11400000, guid: 13fc8ba19ddae0a499a0e19dac17b278, type: 2}
+    quantity: 1

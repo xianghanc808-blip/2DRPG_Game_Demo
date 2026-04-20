@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5e0d87c770e06f4c86b90c4ade342d8, type: 3}
+  m_Name: Dialogue_MonkFirst
+  m_EditorClassIdentifier: 
+  lines:
+  - actorSO: {fileID: 11400000, guid: 648cb1c6873852a4aad789f6516d23a8, type: 2}
+    text: "\u6211\u4F1A\u53BB\u7684"
+  options: []
+  offerQuestOnEnd: {fileID: 0}
+  requiredCompletedQuests: []
+  turnInQuestOnEnd: {fileID: 0}
+  requireNPCs:
+  - {fileID: 11400000, guid: b9f4230af6c3cb34cb6011808dfc4d64, type: 2}
+  requireKillEnemy: []
+  requireItems: []
+  removeAfterPlay: 1
+  removeTheseOnPlay:
+  - {fileID: 11400000, guid: 16f40c553728ac349beff14a9cbd382e, type: 2}

@@ -1,0 +1,33 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.Tilemaps;
+
+public class ExiteElovation : MonoBehaviour
+{
+    //public TilemapCollider2D[] mountainCollision;
+    //public Collider2D[] boundaryCollision;
+
+    public GameObject mountainGroupCollision;
+    public GameObject boundaryGroupCollision;
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player") )
+        {
+            //foreach (TilemapCollider2D tilemapCollider2D in mountainCollision)
+            //{
+            //    tilemapCollider2D.enabled = true;
+            //}
+            //foreach (Collider2D collider2D in boundaryCollision)
+            //{
+            //    collider2D.enabled = false;
+            //}
+            //collision.gameObject.GetComponent<SpriteRenderer>().sortingOrder = 10;
+
+
+            mountainGroupCollision.SetActive(false);
+            boundaryGroupCollision.SetActive(true);
+        }
+    }
+}

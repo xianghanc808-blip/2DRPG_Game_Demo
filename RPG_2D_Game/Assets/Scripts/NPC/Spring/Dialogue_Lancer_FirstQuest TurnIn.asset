@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5e0d87c770e06f4c86b90c4ade342d8, type: 3}
+  m_Name: Dialogue_Lancer_FirstQuest TurnIn
+  m_EditorClassIdentifier: 
+  lines:
+  - actorSO: {fileID: 11400000, guid: b9f4230af6c3cb34cb6011808dfc4d64, type: 2}
+    text: "\u8C22\u8C22\u4F60!!\u4E3A\u6211\u4EEC\u9080\u8BF7\u4E86\u6CD5\u5E08!!"
+  options: []
+  offerQuestOnEnd: {fileID: 0}
+  requiredCompletedQuests:
+  - {fileID: 11400000, guid: 5e88fea1be012d249ab2fdf00e7b0a19, type: 2}
+  turnInQuestOnEnd: {fileID: 11400000, guid: 5e88fea1be012d249ab2fdf00e7b0a19, type: 2}
+  requireNPCs: []
+  requireKillEnemy: []
+  requireItems: []
+  removeAfterPlay: 1
+  removeTheseOnPlay: []

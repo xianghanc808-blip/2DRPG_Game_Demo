@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aca4e335dcb26948ae7c3fdd93c090c, type: 3}
+  m_Name: GreenHill
+  m_EditorClassIdentifier: 
+  lines:
+  - speeker: {fileID: 11400000, guid: 73cfc27a037f1764fa9249c51af240bb, type: 2}
+    text: "\u4F60\u53BB\u8FC7\u54EA\u91CC"
+  options: []
+  requiredNPCs: []
+  requiredLocations:
+  - {fileID: 11400000, guid: a8ea45d820e947c4d9bf16291686afe5, type: 2}
+  requiredItems: []
+  removeAfterPlay: 1
+  removeTheseOnPlay: []

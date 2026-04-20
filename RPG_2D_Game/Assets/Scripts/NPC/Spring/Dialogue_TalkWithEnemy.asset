@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5e0d87c770e06f4c86b90c4ade342d8, type: 3}
+  m_Name: Dialogue_TalkWithEnemy
+  m_EditorClassIdentifier: 
+  lines:
+  - actorSO: {fileID: 11400000, guid: bdf8b58313c5259488e94ff249962049, type: 2}
+    text: "\u53C8\u6765\u4E86\u4E00\u4E2A\u9001\u6B7B\u7684"
+  - actorSO: {fileID: 11400000, guid: bfa53ece8cc1fc84dab096af7e722402, type: 2}
+    text: "\u6EDA\u51FA\u6751\u5B50!!!"
+  options: []
+  offerQuestOnEnd: {fileID: 0}
+  requiredCompletedQuests: []
+  turnInQuestOnEnd: {fileID: 0}
+  requireNPCs: []
+  requireKillEnemy: []
+  requireItems: []
+  removeAfterPlay: 1
+  removeTheseOnPlay: []

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aca4e335dcb26948ae7c3fdd93c090c, type: 3}
+  m_Name: Dialogue_Purple_Quest
+  m_EditorClassIdentifier: 
+  lines:
+  - speeker: {fileID: 11400000, guid: 73cfc27a037f1764fa9249c51af240bb, type: 2}
+    text: "\u4F60\u597D\u6211\u662F\u7D2B\u7684,\u8BF7\u5E2E\u6211\u627E\u5230\u7EA2\u7684\u548C\u9EC4\u7684"
+  options: []
+  requiredNPCs: []
+  requiredLocations: []
+  requiredItems: []
+  removeAfterPlay: 0
+  removeTheseOnPlay: []

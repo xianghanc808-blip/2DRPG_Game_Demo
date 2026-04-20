@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aca4e335dcb26948ae7c3fdd93c090c, type: 3}
+  m_Name: Dialogue_Yellow 1
+  m_EditorClassIdentifier: 
+  lines:
+  - speeker: {fileID: 11400000, guid: 15735dc76c2cfa841b8a2484e3bb4442, type: 2}
+    text: "\u4F60\u597D\u6211\u662F\u9EC4\u7684"
+  - speeker: {fileID: 11400000, guid: 15735dc76c2cfa841b8a2484e3bb4442, type: 2}
+    text: "\u4F60\u5148\u627E\u5230\u6211\u7684\u5144\u5F1F"
+  options: []
+  requiredNPCs:
+  - {fileID: 11400000, guid: e6c668e036eb9a84d87f90cf70dcf80c, type: 2}
+  - {fileID: 11400000, guid: 73cfc27a037f1764fa9249c51af240bb, type: 2}
